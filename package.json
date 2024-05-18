@@ -1,0 +1,23 @@
+{
+    "type": "module",
+    "private": true,
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "@hotwired/turbo": "^7.1.1 || ^8.0",
+        "@symfony/ux-react": "file:vendor/symfony/ux-react/assets",
+        "@symfony/ux-turbo": "file:vendor/symfony/ux-turbo/assets",
+        "@types/react": "^18.3.1",
+        "@types/react-dom": "^18.3.0",
+        "@vitejs/plugin-react": "^4.2.1",
+        "vite": "^5.0",
+        "vite-plugin-symfony": "^6.4"
+    },
+    "dependencies": {
+        "@hotwired/stimulus": "^3.2.2",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1"
+    }
+}
